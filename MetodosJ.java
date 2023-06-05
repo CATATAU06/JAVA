@@ -32,16 +32,16 @@ static void recadO (String recado) {
     
     
    
-    meuMetodo  ("Gabriel"); 
-    meuMetodo ("Gabriel");
-    meuMetodo ("Gabriel");
-    meuMetodo ("Gabriel");
+    meuMetodo  ("Catatau"); 
+    meuMetodo ("Catatau");
+    meuMetodo ("Catatau");
+    meuMetodo ("Catatau");
 
 
     //método com dois parametros
-    nomeEidade("Gabriel", 17);
-    nomeEidade("Gabrielly", 17);
-    nomeEidade("Otávio", 18);
+    nomeEidade("Catatau", 17);
+    nomeEidade("Pedro", 17);
+    nomeEidade("Gabriel", 18);
 
     //método atividade
     recadO("Prof Edney");
