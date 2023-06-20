@@ -1,20 +1,25 @@
-fun main() {
-  println("Olá Mundo")
-  var nome: String = "João"
-  val nascimento: Int = 2006
+import kotlin.math.*
 
-println(nome)          // exibe o nome
-println(nascimento)     // exibe o nascimento
+fun main(args: Array<String>) {
+  println("RAIZ DE 2º GRAU")
+  println()
+  
+  print("Valor de A: ")
+  var a = readLine()!!.toDouble()
 
-val myNum: Int = 5                // Int
-val myDoubleNum: Double = 8.99    // Double
-val myLetter: Char = 'J'          // Char
-val myBoolean: Boolean = false     // Boolean
-val myText: String = "Opa"      // String
+  print("Valor de B: ")
+  var b = readLine()!!.toDouble()
 
-  println (myNum)
-  println (myDoubleNum)
-  println (myLetter)
-  println (myBoolean)
-  println (myText)
+  print("Valor de C: ")
+  var c = readLine()!!.toDouble()
+  
+  var delta = (b * b) - (4 * a * c)
+  var x1 = ((0 - b) + (sqrt(delta))) / (2 * a)
+  var x2 = ((0 - b) - (sqrt(delta))) / (2 * a)
+
+  println()
+  
+  println("X1 = " + x1.toInt())
+  println("X2 = " + x2.toInt())
+  println("Resultado: (" + x1.toInt() + ", " + x2.toInt() + ")")
 }
